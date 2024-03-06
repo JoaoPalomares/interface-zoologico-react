@@ -1,6 +1,7 @@
 import './Home.css'
 import Atracao from '../../components/Atracao/Atracao';
 import Navegacao from '../../components/Navegacao/Navegacao';
+import React from 'react';
 
 function Home() {
     const componentes = [];

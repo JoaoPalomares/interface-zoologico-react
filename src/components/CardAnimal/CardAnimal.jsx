@@ -12,4 +12,4 @@ function CardAnimal() {
     );
 }
 
-export default CardAnimal
+export default CardAnimal;
