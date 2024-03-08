@@ -1,7 +1,7 @@
 import './Home.css'
 import Atracao from '../../components/Atracao/Atracao';
 import Navegacao from '../../components/Navegacao/Navegacao';
-import React from 'react';
+import Welcome from '../../components/Welcome/Welcome';
 
 function Home() {
     const componentes = [];
@@ -11,6 +11,7 @@ function Home() {
     return (
         <>
             <Navegacao></Navegacao>
+            <Welcome></Welcome>
             <div className="ctn-atracoes">
                 {componentes}
             </div>
