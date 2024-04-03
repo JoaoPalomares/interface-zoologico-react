@@ -7,6 +7,8 @@ function CardAnimal() {
             <div className="ctn-cardanimal">
                 <img src={imgNotFound} />
                 <p>Lorem Ipsum</p>
+                <p>Lorem Ipsum</p>
+                <p>Lorem Ipsum</p>
             </div>
         </>
     );

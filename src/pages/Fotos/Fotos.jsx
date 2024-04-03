@@ -1,13 +1,15 @@
-import './Fotos.css'
-import Navegacao from '../../components/Navegacao/Navegacao'
+import './Fotos.css';
+import ImgCarrossel from '../../components/ImgCarrossel/ImgCarrossel';
+import Navegacao from '../../components/Navegacao/Navegacao';
 
-function Fotos () {
-    return (
+function Fotos() {
+    return(
         <>
-            <Navegacao></Navegacao>
-            <p style={{color: 'black'}}>Nada aqui ainda</p>
+            <Navegacao />
+            <h1>Fotos</h1>
+            <ImgCarrossel />
         </>
-    )
+    );
 }
 
-export default Fotos;
+export default Fotos
