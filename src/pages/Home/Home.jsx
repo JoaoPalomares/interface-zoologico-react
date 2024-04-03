@@ -2,6 +2,7 @@ import './Home.css'
 import Atracao from '../../components/Atracao/Atracao';
 import Navegacao from '../../components/Navegacao/Navegacao';
 import Welcome from '../../components/Welcome/Welcome';
+import FormAnimal from '../../components/FormAnimal/FormAnimal';
 
 function Home() {
     const componentes = [];
@@ -11,11 +12,12 @@ function Home() {
     return (
         <>
             <Navegacao></Navegacao>
-            <Welcome></Welcome>
+            <FormAnimal />
+            {/* <Welcome></Welcome>
             <h1 style={{color: 'black'}}>Atrações</h1>
             <div className="ctn-atracoes">
                 {componentes}
-            </div>
+            </div> */}
         </>
     )
 }

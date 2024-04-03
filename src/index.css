@@ -26,6 +26,7 @@ a:hover {
 }
 
 body {
+  font-family: "Caesar Dressing", system-ui;
   margin: 0;
   display: flex;
   min-width: 320px;
