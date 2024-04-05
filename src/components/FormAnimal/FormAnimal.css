@@ -1,11 +1,12 @@
 input {
     background-color: white;
     color: black;
-    width: 400px;
+    width: 500px;
+    border-radius: 5px;
 }
 
 select, button {
-    width: 400px;
+    width: 500px;
 }
 
 .cadastro{
@@ -17,4 +18,8 @@ select, button {
 
 .caracteristica{
     margin: 5px;
+}
+
+.titulo {
+    margin: 2%;
 }
